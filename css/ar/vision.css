@@ -1,0 +1,55 @@
+/* Vision Section */
+.vision {
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+
+.vision-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.vision-items-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.vision-item {
+  padding: 16px;
+}
+
+.vision-number {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  background: linear-gradient(135deg, #00478e 0%, #00a7e1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.vision-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #141f1f;
+  margin-bottom: 4px;
+}
+
+.vision-description {
+  font-size: 16px;
+  color: #141f1f;
+  line-height: 1.5;
+}
+
+.vision-visual {
+  position: relative;
+}
+
+.vision-image {
+  width: 100%;
+  height: auto;
+}

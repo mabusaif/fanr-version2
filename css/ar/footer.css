@@ -1,0 +1,287 @@
+/* Footer - Updated to match Figma design */
+.footer {
+  background: #00478e;
+  color: white;
+  padding: 80px;
+}
+
+.footer-content {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.footer-header h3 {
+  font-family: "Somar", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #ffffff;
+  margin: 0;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 220px;
+}
+
+.footer-logo-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 215px;
+  flex-shrink: 0;
+}
+
+.footer-logo img {
+  width: 102px;
+  height: 52px;
+  object-fit: contain;
+}
+
+.footer-tagline {
+  font-family: "Somar", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  margin: 0;
+}
+
+.footer-links {
+  display: flex;
+  gap: 42px;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.link-section,
+.contact-section,
+.social-section {
+  display: flex;
+  gap: 16px;
+  width: 258px;
+  flex-shrink: 0;
+}
+
+.section-divider {
+  width: 2px;
+  height: 87px;
+  background: #ffffff;
+  flex-shrink: 0;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.section-content h4 {
+  font-family: "Somar", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #f9fafa;
+  margin: 0;
+  text-align: left;
+}
+
+.section-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.section-content li {
+  margin: 0;
+}
+
+.section-content a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Somar", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.625;
+  letter-spacing: -0.02em;
+  transition: opacity 0.3s ease;
+}
+
+.section-content a:hover {
+  opacity: 0.8;
+}
+
+.footer .contact-section .section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.footer .contact-section .section-content h4 {
+  text-align: left;
+  margin: 0;
+  font-family: "Somar", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f9fafa;
+}
+
+.footer .contact-items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.footer .contact-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.footer .contact-icon {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .contact-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.footer .contact-item span {
+  font-family: "Somar", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.625;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.social-section .section-content {
+  gap: 9.6px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 19.2px;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.social-link:hover {
+  transform: translateY(-2px);
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.social-icon img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+/* Social icon specific sizing for different platforms */
+.social-section .social-icon {
+  border-radius: 50%;
+}
+
+.social-section .social-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+/* LinkedIn specific styling */
+.social-section .social-link:first-child .social-icon img {
+  width: 26px;
+  height: 25px;
+}
+
+/* Twitter/X specific styling */
+.social-section .social-link:nth-child(2) .social-icon img {
+  width: 28px;
+  height: 26px;
+}
+
+/* Instagram specific styling */
+.social-section .social-link:nth-child(3) .social-icon img {
+  width: 28px;
+  height: 28px;
+}
+
+/* Facebook specific styling */
+.social-section .social-link:nth-child(4) .social-icon img {
+  width: 21px;
+  height: 28px;
+}
+
+.link-section h4,
+.contact-section h4,
+.social-section h4 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f9fafa;
+  margin-bottom: 16px;
+}
+
+.link-section ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.link-section a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.63;
+  letter-spacing: -0.02em;
+  transition: color 0.3s ease;
+}
+
+.link-section a:hover {
+  color: #f9fafa;
+}
+
+.social-section .social-links {
+  display: flex;
+  gap: 9.6px;
+}

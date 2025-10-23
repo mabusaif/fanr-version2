@@ -1,0 +1,104 @@
+/* How It Works Section */
+.how-it-works {
+  padding: 120px 0;
+  background-color: #f8fafc;
+}
+
+.tabs-header {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 80px;
+}
+
+.tab-btn {
+  padding: 16px 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #00478e;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.tab-btn:hover,
+.tab-btn.active {
+  transform: translateY(-2px);
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.15);
+}
+
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+.steps-wrapper {
+  display: grid;
+  grid-template-columns: 460px 1fr 460px;
+  gap: 24px;
+  align-items: center;
+  position: relative;
+}
+
+.steps-left,
+.steps-right {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.step-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 24px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  position: relative;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.step-number {
+  width: 64px;
+  height: 64px;
+  background-color: #00478e;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.step-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #00478e;
+}
+
+.app-mockup {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mockup-bg {
+  position: absolute;
+  width: 521px;
+  height: auto;
+  z-index: 0;
+}
+
+.mockup-phone {
+  position: relative;
+  width: 295px;
+  height: auto;
+  z-index: 1;
+}
