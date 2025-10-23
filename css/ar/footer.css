@@ -182,9 +182,13 @@
   gap: 9.6px;
 }
 
+.social-section .section-content h4 {
+  text-align: right;
+}
+
 .social-links {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
   gap: 19.2px;
   flex-wrap: wrap;

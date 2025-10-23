@@ -152,7 +152,7 @@
   line-height: 1.5em;
   color: #4e5556;
   width: 211px;
-  text-align: left;
+  text-align: right;
   word-wrap: break-word;
 }
 
@@ -165,7 +165,7 @@
 .progress-line-bg {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   width: 225px;
   height: 6.65px;
   background: #dddfdf;
@@ -174,7 +174,7 @@
 .progress-line-fill {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   width: 150.36px;
   height: 6.65px;
   background: #141f1f;

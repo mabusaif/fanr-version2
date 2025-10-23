@@ -55,10 +55,17 @@
   gap: 4px;
   padding: 10px 8px;
   cursor: pointer;
+  text-decoration: none;
+  color: #141f1f;
+  transition: color 0.3s ease;
+}
+
+.language-selector:hover {
+  color: #00478e;
 }
 
 .language-selector span {
   font-weight: 400;
   font-size: 16px;
-  color: #141f1f;
+  color: inherit;
 }
