@@ -1,0 +1,287 @@
+/* Hero Section - Updated to match Figma designs */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%) !important;
+  overflow: hidden;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+.hero-main {
+  flex: 1;
+  max-width: 628px;
+}
+
+.hero-text h1 {
+  font-family: "Somar", sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.36;
+  color: #141f1f;
+  margin-bottom: 40px;
+}
+
+.hero-text p {
+  font-family: "Somar", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #4e5556;
+  margin-bottom: 40px;
+  max-width: 588px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 56px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hero-visual {
+  position: relative !important;
+  width: 628px;
+  height: 515px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Group 427320839 - Main visual group */
+.visual-group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 628px;
+  height: 515px;
+  z-index: 2;
+}
+
+/* Rectangle 23805 - House image with curved left edge */
+.house-image-card {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 324px;
+  height: 275px;
+  border-radius: 1000px 20px 20px 20px;
+  overflow: hidden;
+  z-index: 1;
+  background: #d9d9d9;
+  box-shadow: 0px 0.76px 5.82px 0px rgba(0, 0, 0, 0.02),
+    0px 1.78px 13.52px 0px rgba(0, 0, 0, 0.03),
+    0px 3.19px 24.28px 0px rgba(0, 0, 0, 0.04),
+    0px 5.3px 40.3px 0px rgba(0, 0, 0, 0.05),
+    0px 8.73px 66.4px 0px rgba(0, 0, 0, 0.06),
+    0px 15.26px 116.04px 0px rgba(0, 0, 0, 0.07),
+    0px 33px 251px 0px rgba(0, 0, 0, 0.09);
+}
+
+.house-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Frame 1984079095 - Experience badge */
+.hero .experience-badge {
+  position: absolute !important;
+  top: 0;
+  left: 350px;
+  width: 278px !important;
+  height: 281px !important;
+  background: #f0f0f0 !important;
+  border-radius: 20px !important;
+  backdrop-filter: blur(84px);
+  z-index: 2;
+  box-shadow: 0px 0.76px 5.82px 0px rgba(0, 0, 0, 0.02),
+    0px 1.78px 13.52px 0px rgba(0, 0, 0, 0.03),
+    0px 3.19px 24.28px 0px rgba(0, 0, 0, 0.04),
+    0px 5.3px 40.3px 0px rgba(0, 0, 0, 0.05),
+    0px 8.73px 66.4px 0px rgba(0, 0, 0, 0.06),
+    0px 15.26px 116.04px 0px rgba(0, 0, 0, 0.07),
+    0px 33px 251px 0px rgba(0, 0, 0, 0.09);
+}
+
+/* Frame 1984079096 - Content container */
+.badge-content-frame {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 225px;
+  padding: 34px 26px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* Frame 427321475 - Text content */
+.badge-text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.badge-number {
+  font-family: "Somar", sans-serif;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 1.0875em;
+  color: #141f1f;
+  text-align: left;
+}
+
+.badge-description {
+  font-family: "Somar", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5em;
+  color: #4e5556;
+  width: 211px;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.progress-line-group {
+  position: relative;
+  width: 225px;
+  height: 6.65px;
+}
+
+.progress-line-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 225px;
+  height: 6.65px;
+  background: #dddfdf;
+}
+
+.progress-line-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150.36px;
+  height: 6.65px;
+  background: #141f1f;
+}
+
+/* Remove progress line from experience badge */
+
+/* Frame 1984079092 - Bottom card */
+.hero-card {
+  position: absolute !important;
+  top: 299px;
+  left: 0;
+  width: 628px;
+  height: 216px;
+  border-radius: 20px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.card-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #010205;
+  border-radius: 20px;
+}
+
+.card-background::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+.card-content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+  padding: 31.5px 35.25px;
+  z-index: 2;
+}
+
+.card-tagline {
+  font-family: "Somar", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.card-tagline::before {
+  content: "";
+  width: 54px;
+  height: 1px;
+  background: #ffffff;
+  flex-shrink: 0;
+}
+
+.card-content h2 {
+  font-family: "Somar", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin: 0;
+  width: 327px;
+}
+
+.progress-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  position: absolute;
+  right: 35.25px;
+  bottom: 50px;
+}
+
+.progress-bar {
+  border-radius: 0;
+}
+
+.progress-bar-1 {
+  width: 69px;
+  height: 95px;
+  background: #cce5ff;
+}
+
+.progress-bar-2 {
+  width: 69px;
+  height: 136px;
+  background: #99ccff;
+}
+
+.progress-bar-3 {
+  width: 69px;
+  height: 166px;
+  background: #66b2ff;
+}

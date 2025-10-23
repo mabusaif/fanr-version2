@@ -1,0 +1,190 @@
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 40px;
+  }
+
+  .nav-container {
+    padding: 20px 40px;
+  }
+
+  .hero-content {
+    padding: 0 40px;
+    gap: 50px;
+  }
+
+  .hero-text h1 {
+    font-size: 48px;
+  }
+
+  .services {
+    padding: 80px 40px 40px;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .nav-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 100px 0 80px;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .hero-text h1 {
+    font-size: 36px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero-visual {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .house-image-card,
+  .experience-badge,
+  .hero-card {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .vision-grid {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .steps {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .steps-wrapper {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .faq-content {
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 20px;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+  }
+
+  .contact-info {
+    width: 100%;
+    max-width: 520px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact-details {
+    width: 100%;
+    max-width: 734px;
+    padding: 0;
+  }
+
+  .contact-subtitle {
+    font-size: 24px;
+  }
+
+  .contact-description {
+    font-size: 18px;
+  }
+
+  .contact-item-header h4 {
+    font-size: 20px;
+  }
+
+  .contact-item-content span {
+    font-size: 18px;
+  }
+
+  .social-links {
+    gap: 16px;
+  }
+
+  .social-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .social-icon img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .footer {
+    padding: 40px 20px;
+  }
+
+  .footer-main {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    min-width: auto;
+  }
+}

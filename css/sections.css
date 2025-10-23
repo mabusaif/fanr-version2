@@ -1,0 +1,42 @@
+/* Section Header Styles */
+.section-header {
+  margin-bottom: 48px;
+}
+
+.section-header.centered {
+  text-align: center;
+  max-width: 628px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+
+.section-label {
+  font-size: 20px;
+  font-weight: 500;
+  color: #141f1f;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.section-title {
+  font-size: 48px;
+  margin-bottom: 24px;
+  font-weight: 600;
+  color: #141f1f;
+}
+
+.section-description {
+  font-size: 20px;
+  font-weight: 500;
+  color: #141f1f;
+  line-height: 1.5;
+}
+
+/* Gradient Text */
+.gradient-text {
+  background: linear-gradient(135deg, #00478e 0%, #00a7e1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
