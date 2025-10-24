@@ -96,13 +96,20 @@
 }
 
 .badge-number {
-  font-size: 72px;
+  font-family: "Inter", sans-serif;
+  font-size: 80px;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.21em;
+  text-align: center;
+  color: #ffffff;
   margin-bottom: 16px;
 }
 
 .badge-text {
-  font-size: 28px;
-  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.21em;
+  text-align: center;
+  color: #ffffff;
 }

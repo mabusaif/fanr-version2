@@ -5,12 +5,13 @@
   border: none;
   border-radius: 12px;
   padding: 12px 20px;
-  font-weight: 600;
+  font-family: "Somar", sans-serif;
+  font-weight: 600 !important;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.5em;
+  text-align: center;
   cursor: pointer;
   transition: all 0.3s ease;
-  text-align: center;
   min-width: 191px;
 }
 
@@ -25,12 +26,13 @@
   border: 2px solid #00478e;
   border-radius: 12px;
   padding: 12px 20px;
-  font-weight: 600;
+  font-family: "Somar", sans-serif;
+  font-weight: 600 !important;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.5em;
+  text-align: center;
   cursor: pointer;
   transition: all 0.3s ease;
-  text-align: center;
   min-width: 176px;
 }
 

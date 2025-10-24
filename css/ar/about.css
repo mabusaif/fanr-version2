@@ -102,15 +102,17 @@
 }
 
 .badge-number {
-  font-size: 72px;
+  font-size: 80px;
   font-weight: 700;
   line-height: 1;
+  color: #ffffff;
   margin-bottom: 16px;
 }
 
 .badge-text {
   font-size: 28px;
   font-weight: 400;
+  color: #ffffff;
 }
 
 /* Our Story Text Styling */

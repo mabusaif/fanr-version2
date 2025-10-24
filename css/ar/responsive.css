@@ -14,7 +14,10 @@
   }
 
   .hero-text h1 {
+    font-family: "Somar", sans-serif;
     font-size: 48px;
+    font-weight: 600;
+    line-height: 1.36em;
   }
 
   .services {
@@ -52,7 +55,10 @@
   }
 
   .hero-text h1 {
+    font-family: "Somar", sans-serif;
     font-size: 36px;
+    font-weight: 600;
+    line-height: 1.36em;
   }
 
   .hero-actions {
@@ -173,15 +179,24 @@
 
 @media (max-width: 480px) {
   .hero-text h1 {
+    font-family: "Somar", sans-serif;
     font-size: 28px;
+    font-weight: 600;
+    line-height: 1.36em;
   }
 
   .hero-text p {
+    font-family: "Somar", sans-serif;
     font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
   }
 
   .section-title {
+    font-family: "Somar", sans-serif;
     font-size: 32px;
+    font-weight: 600;
+    line-height: 1.63em;
   }
 
   .btn-primary,

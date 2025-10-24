@@ -20,17 +20,20 @@
 }
 
 .section-title {
+  font-family: "Somar", sans-serif;
   font-size: 48px;
-  margin-bottom: 24px;
   font-weight: 600;
+  line-height: 1.63em;
   color: #141f1f;
+  margin-bottom: 24px;
 }
 
 .section-description {
+  font-family: "Somar", sans-serif;
   font-size: 20px;
   font-weight: 500;
+  line-height: 1.5em;
   color: #141f1f;
-  line-height: 1.5;
 }
 
 /* Vision Section Specific Styles */

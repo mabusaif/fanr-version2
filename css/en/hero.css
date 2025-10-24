@@ -28,7 +28,7 @@
   font-family: "Somar", sans-serif;
   font-weight: 600;
   font-size: 64px;
-  line-height: 1.36;
+  line-height: 1.36em;
   color: #141f1f;
   margin-bottom: 40px;
 }
@@ -37,7 +37,7 @@
   font-family: "Somar", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.5em;
   color: #4e5556;
   margin-bottom: 40px;
   max-width: 588px;
@@ -257,14 +257,15 @@
 .card-heading {
   font-family: "Somar", sans-serif;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 32px;
   line-height: 1.3em;
   letter-spacing: -0.02em;
   color: #ffffff;
   margin: 0;
-  width: 280px;
+  width: 327px;
   word-wrap: break-word;
   overflow-wrap: break-word;
+  margin-top: 0;
 }
 
 /* Frame 427321480 - Progress bars */
