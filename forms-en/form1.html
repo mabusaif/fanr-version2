@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Form 1 - Personal Information</title>
+    <link rel="stylesheet" href="../css/forms-en/form1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Somar:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="form-container">
+      <!-- Header -->
+      <div class="form-header">
+        <div class="header-content">
+          <h1 class="form-title">Application Form</h1>
+        </div>
+      </div>
+
+      <!-- Form Content -->
+      <div class="form-content">
+        <!-- Step Header -->
+        <div class="step-header">
+          <h2 class="step-title">Step 1: Personal Information</h2>
+          <div class="stepper">
+            <div class="stepper-line"></div>
+            <div class="stepper-line"></div>
+            <div class="stepper-line"></div>
+            <div class="stepper-line"></div>
+            <div class="stepper-content">
+              <div class="step-shape active">
+                <div class="step-dot"></div>
+              </div>
+              <div class="step-shape"></div>
+              <div class="step-shape"></div>
+              <div class="step-shape"></div>
+              <div class="step-shape"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form Fields -->
+        <form class="application-form">
+          <!-- Full Name -->
+          <div class="form-section">
+            <div class="input-field">
+              <label class="input-label">Full Name *</label>
+              <div class="input-container">
+                <input
+                  type="text"
+                  class="form-input"
+                  placeholder="Ex: Faisal Mohamed Ahmed"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Number -->
+          <div class="form-section">
+            <div class="input-field contact-field">
+              <label class="input-label">Contact Number *</label>
+              <div class="contact-inputs">
+                <div class="country-code-container">
+                  <input
+                    type="text"
+                    class="country-code"
+                    value="+966"
+                    readonly
+                  />
+                  <div class="dropdown-icon">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                      <path
+                        d="M4 6L8 10L12 6"
+                        stroke="#666666"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="phone-input-container">
+                  <input
+                    type="tel"
+                    class="phone-input"
+                    placeholder="111-0000"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="form-section">
+            <div class="input-field">
+              <label class="input-label">Email Address *</label>
+              <div class="input-container">
+                <input type="email" class="form-input" placeholder="Email" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Job Title -->
+          <div class="form-section">
+            <div class="input-field">
+              <label class="input-label">Job Title *</label>
+              <div class="input-container">
+                <input
+                  type="text"
+                  class="form-input"
+                  placeholder="Select your job title"
+                  readonly
+                />
+                <div class="dropdown-icon">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path
+                      d="M4 6L8 10L12 6"
+                      stroke="#666666"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- City and Address -->
+          <div class="form-section">
+            <div class="input-field">
+              <label class="input-label">City *</label>
+              <div class="input-container">
+                <input
+                  type="text"
+                  class="form-input"
+                  placeholder="Select your city"
+                  readonly
+                />
+                <div class="dropdown-icon">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path
+                      d="M4 6L8 10L12 6"
+                      stroke="#666666"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="input-field">
+              <label class="input-label">Full Address *</label>
+              <div class="input-container">
+                <input
+                  type="text"
+                  class="form-input"
+                  placeholder="Type your full address"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Methods -->
+          <div class="form-section">
+            <div class="contact-methods">
+              <label class="input-label">Preferred Contact Methods</label>
+              <div class="checkbox-group">
+                <div class="checkbox-item">
+                  <input type="checkbox" id="whatsapp" class="checkbox-input" />
+                  <label for="whatsapp" class="checkbox-label">
+                    <span class="checkbox-custom"></span>
+                    <span class="checkbox-text">Whatsapp</span>
+                  </label>
+                </div>
+                <div class="checkbox-item">
+                  <input type="checkbox" id="email" class="checkbox-input" />
+                  <label for="email" class="checkbox-label">
+                    <span class="checkbox-custom"></span>
+                    <span class="checkbox-text">Email</span>
+                  </label>
+                </div>
+                <div class="checkbox-item">
+                  <input type="checkbox" id="phone" class="checkbox-input" />
+                  <label for="phone" class="checkbox-label">
+                    <span class="checkbox-custom"></span>
+                    <span class="checkbox-text">Phone Call</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+
+        <!-- Next Button -->
+        <div class="form-actions">
+          <button type="button" class="next-button">Next</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
