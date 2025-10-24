@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Form 3 - Provided Services</title>
+    <link rel="stylesheet" href="../css/forms-en/form3.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Somar:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="form-container">
+      <!-- Header -->
+      <div class="form-header">
+        <div class="header-content">
+          <h1 class="form-title">Application Form</h1>
+        </div>
+      </div>
+
+      <!-- Form Content -->
+      <div class="form-content">
+        <!-- Step Header -->
+        <div class="step-header">
+          <h2 class="step-title">Step 3: Provided Services</h2>
+          <div class="stepper">
+            <div class="stepper-line"></div>
+            <div class="stepper-line"></div>
+            <div class="stepper-line"></div>
+            <div class="stepper-line"></div>
+            <div class="stepper-content">
+              <div class="step-shape completed">
+                <div class="checkmark">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path
+                      d="M2.65 6.21L4.86 8.42L9.21 4.07"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="step-shape active">
+                <div class="step-dot"></div>
+              </div>
+              <div class="step-shape"></div>
+              <div class="step-shape completed">
+                <div class="checkmark">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path
+                      d="M2.65 6.21L4.86 8.42L9.21 4.07"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="step-shape"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form Fields -->
+        <form class="application-form">
+          <!-- Business Type (Disabled) -->
+          <div class="form-section">
+            <div class="input-field disabled-field">
+              <label class="input-label">Sector / Type of Business</label>
+              <div class="input-container disabled">
+                <input
+                  type="text"
+                  class="form-input"
+                  value="Engineering & Consulting Office"
+                  disabled
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Provided Services -->
+          <div class="form-section">
+            <div class="services-section">
+              <label class="input-label">Provided Services *</label>
+              <div class="checkbox-groups">
+                <div class="checkbox-group">
+                  <div class="checkbox-item">
+                    <input
+                      type="checkbox"
+                      id="architectural"
+                      class="checkbox-input"
+                    />
+                    <label for="architectural" class="checkbox-label">
+                      <span class="checkbox-custom"></span>
+                      <span class="checkbox-text">Architectural Design</span>
+                    </label>
+                  </div>
+                  <div class="checkbox-item">
+                    <input
+                      type="checkbox"
+                      id="structural"
+                      class="checkbox-input"
+                    />
+                    <label for="structural" class="checkbox-label">
+                      <span class="checkbox-custom"></span>
+                      <span class="checkbox-text">Structural Design</span>
+                    </label>
+                  </div>
+                  <div class="checkbox-item">
+                    <input
+                      type="checkbox"
+                      id="interior"
+                      class="checkbox-input"
+                    />
+                    <label for="interior" class="checkbox-label">
+                      <span class="checkbox-custom"></span>
+                      <span class="checkbox-text">Interior Design</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="checkbox-group">
+                  <div class="checkbox-item">
+                    <input
+                      type="checkbox"
+                      id="execution"
+                      class="checkbox-input"
+                    />
+                    <label for="execution" class="checkbox-label">
+                      <span class="checkbox-custom"></span>
+                      <span class="checkbox-text">Execution Drawings</span>
+                    </label>
+                  </div>
+                  <div class="checkbox-item">
+                    <input
+                      type="checkbox"
+                      id="supervision"
+                      class="checkbox-input"
+                    />
+                    <label for="supervision" class="checkbox-label">
+                      <span class="checkbox-custom"></span>
+                      <span class="checkbox-text"
+                        >Supervision of Execution</span
+                      >
+                    </label>
+                  </div>
+                  <div class="checkbox-item">
+                    <input
+                      type="checkbox"
+                      id="surveying"
+                      class="checkbox-input"
+                    />
+                    <label for="surveying" class="checkbox-label">
+                      <span class="checkbox-custom"></span>
+                      <span class="checkbox-text"
+                        >Site Surveying & Analysis</span
+                      >
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+
+        <!-- Back and Next Buttons -->
+        <div class="form-actions">
+          <button type="button" class="back-button" onclick="goToForm2()">
+            Back
+          </button>
+          <button type="button" class="next-button" onclick="goToForm4()">
+            Next
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function goToForm2() {
+        // Navigate back to form2.html
+        window.location.href = "form2.html";
+      }
+
+      function goToForm4() {
+        // Navigate to form4.html
+        window.location.href = "form4.html";
+      }
+    </script>
+  </body>
+</html>

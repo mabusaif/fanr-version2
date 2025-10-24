@@ -199,9 +199,18 @@
 
         <!-- Next Button -->
         <div class="form-actions">
-          <button type="button" class="next-button">Next</button>
+          <button type="button" class="next-button" onclick="goToForm2()">
+            Next
+          </button>
         </div>
       </div>
     </div>
+
+    <script>
+      function goToForm2() {
+        // Navigate to form2.html
+        window.location.href = "form2.html";
+      }
+    </script>
   </body>
 </html>

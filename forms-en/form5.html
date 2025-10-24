@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Form 5 - Final Confirmation</title>
+    <link rel="stylesheet" href="../css/forms-en/form5.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <!-- Header -->
+      <div class="form-header">
+        <h1>Application Form</h1>
+      </div>
+
+      <!-- Form Content -->
+      <div class="form-content">
+        <!-- Step Header -->
+        <div class="step-header">
+          <h2>Step 5: Final Confirmation & Agreement</h2>
+          <div class="stepper">
+            <div class="stepper-line"></div>
+            <div class="stepper-line"></div>
+            <div class="stepper-line"></div>
+            <div class="stepper-line"></div>
+            <div class="stepper-content">
+              <div class="step-shape completed">
+                <div class="checkmark">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path
+                      d="M2.65 6.21L4.86 8.42L9.21 4.07"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="step-shape completed">
+                <div class="checkmark">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path
+                      d="M2.65 6.21L4.86 8.42L9.21 4.07"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="step-shape completed">
+                <div class="checkmark">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path
+                      d="M2.65 6.21L4.86 8.42L9.21 4.07"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="step-shape completed">
+                <div class="checkmark">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path
+                      d="M2.65 6.21L4.86 8.42L9.21 4.07"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="step-shape active">
+                <div class="step-dot"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Agreement Section -->
+        <div class="form-section">
+          <div class="agreement-item">
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                id="accuracy"
+                name="accuracy"
+                class="checkbox-input"
+              />
+              <label for="accuracy" class="checkbox-label">
+                <span class="checkbox-custom"></span>
+                <span class="checkbox-text">
+                  I confirm that all the information and documents provided are
+                  accurate and up to date. *
+                </span>
+              </label>
+            </div>
+          </div>
+
+          <div class="agreement-item">
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                id="terms"
+                name="terms"
+                class="checkbox-input"
+              />
+              <label for="terms" class="checkbox-label">
+                <span class="checkbox-custom"></span>
+                <span class="checkbox-text">
+                  I agree to the terms and conditions of registration on the
+                  Fanr platform. *
+                </span>
+              </label>
+            </div>
+          </div>
+
+          <div class="agreement-item">
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                id="privacy"
+                name="privacy"
+                class="checkbox-input"
+              />
+              <label for="privacy" class="checkbox-label">
+                <span class="checkbox-custom"></span>
+                <span class="checkbox-text">
+                  I agree to the privacy policy and data processing. *
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Confirmation Text -->
+        <div class="confirmation-section">
+          <div class="confirmation-text">
+            <p class="confirmation-title">
+              By submitting this registration form, I confirm that:
+            </p>
+            <p class="confirmation-details">
+              All the information and documents I've provided are accurate and
+              up to date.<br />
+              I'm authorized to submit this application on behalf of my
+              company.<br />
+              I agree to the platform's Terms of Use and Privacy Policy.
+            </p>
+          </div>
+        </div>
+
+        <!-- Back and Submit Buttons -->
+        <div class="form-actions">
+          <button type="button" class="back-button" onclick="goToForm4()">
+            Back
+          </button>
+          <button type="button" class="submit-button" onclick="submitForm()">
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function goToForm4() {
+        // Navigate back to form4.html
+        window.location.href = "form4.html";
+      }
+
+      function submitForm() {
+        // Check if all required checkboxes are checked
+        const accuracy = document.getElementById("accuracy").checked;
+        const terms = document.getElementById("terms").checked;
+        const privacy = document.getElementById("privacy").checked;
+
+        if (!accuracy || !terms || !privacy) {
+          alert("Please check all required agreement boxes before submitting.");
+          return;
+        }
+
+        // Here you would typically submit the form data to a server
+        alert("Form submitted successfully! Thank you for your application.");
+
+        // For demo purposes, you could redirect to a success page
+        // window.location.href = "success.html";
+      }
+    </script>
+  </body>
+</html>

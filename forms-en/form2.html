@@ -84,7 +84,9 @@
           <!-- Commercial Registration and Business Type -->
           <div class="form-section">
             <div class="input-field">
-              <label class="input-label">Commercial Registration Number *</label>
+              <label class="input-label"
+                >Commercial Registration Number *</label
+              >
               <div class="input-container">
                 <input
                   type="text"
@@ -120,10 +122,26 @@
 
         <!-- Back and Next Buttons -->
         <div class="form-actions">
-          <button type="button" class="back-button">Back</button>
-          <button type="button" class="next-button">Next</button>
+          <button type="button" class="back-button" onclick="goToForm1()">
+            Back
+          </button>
+          <button type="button" class="next-button" onclick="goToForm3()">
+            Next
+          </button>
         </div>
       </div>
     </div>
+
+    <script>
+      function goToForm1() {
+        // Navigate back to form1.html
+        window.location.href = "form1.html";
+      }
+
+      function goToForm3() {
+        // Navigate to form3.html
+        window.location.href = "form3.html";
+      }
+    </script>
   </body>
 </html>
